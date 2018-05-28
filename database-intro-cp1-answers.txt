@@ -50,3 +50,41 @@ this can be in a column or a row.
 6) List three data types that can be used in a table.
 
 A: Integer, string and date.
+
+7) Given this payments table, provide an English description of the following queries
+and include their results:
+
+SELECT date, amount
+FROM payments;
+
+A: We are selecting the date and amount columns from payments table.
+
+SELECT amount
+FROM payments
+WHERE amount > 500;
+
+A: We are selecting the amount column from payment table where amount is greater than 500.
+
+SELECT *
+FROM payments
+WHERE payee = 'Mega Foods';
+
+A: We are selecting all columns from payments table where payee is equal to 'Mega Foods'.
+
+8) Given this users table, write SQL queries using the following criteria and include the output:
+
+The email and sign-up date for the user named DeAndre Data.
+The user ID for the user with email 'aleesia.algorithm@uw.edu'.
+All the columns for the user ID equal to 4.
+
+SELECT email and sign-up date
+FROM users
+WHERE user = 'DeAndre Data';
+
+SELECT user ID
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu';
+
+SELECT *
+FROM users
+WHERE user ID = 4;
