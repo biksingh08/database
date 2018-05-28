@@ -1,0 +1,52 @@
+1) What data types do each of these values represent?
+
+1) "A Clockwork Orange"
+2) 42
+3) 09/02/1945
+4) 98.7
+5) $15.99
+
+A:
+1) string
+2) integer
+3) date
+4) float
+6) float for the number and string for the dollar sign (concatenation) but its better
+to return this entire value as a string.
+
+2) Explain when a database would be used. Explain when a text file would be used.
+
+A: Database would be used when we want to create, calculate, manipulate or retrieve data.
+Text files have to be loaded each time the computer starts. So, there is limitation of
+RAM and storage on the device itself and this is where database shines. Its more secure,
+reliable and faster.
+
+3) Describe one difference between SQL and other programming languages.
+
+A: SQL is primarily a database querying language. Its main function is to retrieve or
+manipulate data in the database.
+
+4) In your own words, explain how the pieces of a database system fit together at a high level.
+
+A: Database is basically like a file cabinet. Depending on how we set up the database,
+we can store the files accordingly. Most companies use tables to store data in the database.
+To efficiently store and retrieve something in the database, we must have some sort of reference to the table
+and the data. For example, lets create a table to save all my friends. First we will create the table,
+then we will specify the columns in the table so we can retrieve the information from the columns and rows,
+we will create a column with the name 'friends', as we add more friends to that column,
+we will create a ID column as well on that same table so we can easily join that table with other
+tables if necessary. Now that we created the table with columns ID and friends, we can add
+friends to the table and increase the ID accordingly.
+
+5) Explain the meaning of table, row, column, and value.
+
+A: Table is what stores the information (columns, rows) we specify for that particular table.
+Rows increase as we add more information to the table. For example, we have a table named 'friends' and
+one column in that table named 'bestfriends', we add 'john' to that table as bestfriends. Now, john
+will appear as a row in the table and as we add more friends in that list the rows will increase. Columns
+are basically headers of the table in the database. Value is what is stored in each table data cell,
+this can be in a column or a row.
+
+6) List three data types that can be used in a table.
+
+A: Integer, string and date.
