@@ -58,18 +58,21 @@ SELECT date, amount
 FROM payments;
 
 A: We are selecting the date and amount columns from payments table.
+https://www.dropbox.com/s/b0f5t0mql07h1qc/Screen%20Shot%202018-06-03%20at%2010.26.57%20AM.png?dl=0
 
 SELECT amount
 FROM payments
 WHERE amount > 500;
 
 A: We are selecting the amount column from payment table where amount is greater than 500.
+https://www.dropbox.com/s/4ayrvmypov3uw4m/Screen%20Shot%202018-06-03%20at%2010.28.34%20AM.png?dl=0
 
 SELECT *
 FROM payments
 WHERE payee = 'Mega Foods';
 
 A: We are selecting all columns from payments table where payee is equal to 'Mega Foods'.
+https://www.dropbox.com/s/nnd6bcdglr1twj7/Screen%20Shot%202018-06-03%20at%2010.29.37%20AM.png?dl=0
 
 8) Given this users table, write SQL queries using the following criteria and include the output:
 
@@ -77,14 +80,17 @@ The email and sign-up date for the user named DeAndre Data.
 The user ID for the user with email 'aleesia.algorithm@uw.edu'.
 All the columns for the user ID equal to 4.
 
-SELECT email and sign-up date
+SELECT email, signup
 FROM users
-WHERE user = 'DeAndre Data';
+WHERE name = 'DeAndre Data';
+https://www.dropbox.com/s/td5evnqphbaxgx7/Screen%20Shot%202018-06-03%20at%2010.32.10%20AM.png?dl=0
 
 SELECT user ID
 FROM users
 WHERE email = 'aleesia.algorithm@uw.edu';
+https://www.dropbox.com/s/rcp0csb7jktw90i/Screen%20Shot%202018-06-03%20at%2010.33.14%20AM.png?dl=0
 
 SELECT *
 FROM users
-WHERE user ID = 4;
+WHERE userid = 4;
+https://www.dropbox.com/s/sfh7yhtrp504v7h/Screen%20Shot%202018-06-03%20at%2010.34.13%20AM.png?dl=0
